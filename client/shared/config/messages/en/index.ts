@@ -1,0 +1,14 @@
+const en = {
+  common: { loading: 'Loading...', error: 'Error', close: 'Close', save: 'Save', cancel: 'Cancel', delete: 'Delete', add: 'Add', edit: 'Edit', logout: 'Logout', back: '← Back to Home', demo: 'Demo: demo@books.com / demo123' },
+  nav: { library: 'Library', wishlist: 'Wishlist', genres: 'Genres', stats: 'Statistics', profile: 'Profile', login: 'Login', register: 'Register' },
+  landing: { title: 'Your Personal Library', subtitle: 'Keep track of your books, plan your reading and monitor progress all in one place.', cta: 'Start for free', ctaLogin: 'Login', ctaOpen: 'Open Library →', feature1Title: 'Book Catalog', feature1Desc: 'Add books, mark status: reading, read, want to read.', feature2Title: 'Ratings', feature2Desc: 'Rate read books and always remember what you enjoyed.', feature3Title: 'Statistics', feature3Desc: 'Visual analytics: how many books read, favourite genres.', feature4Title: 'Genres', feature4Desc: 'Organise your collection by genres and find similar books.' },
+  auth: { loginTitle: 'Welcome back', loginSubtitle: 'Sign in to your account', registerTitle: 'Create account', registerSubtitle: 'Start building your library', email: 'Email', password: 'Password', name: 'Name', loginBtn: 'Sign In', registerBtn: 'Register', noAccount: 'No account?', hasAccount: 'Already have an account?', newPassword: 'New password (leave blank to keep current)', passwordHint: 'At least 6 characters', registrationDate: 'Registration date', saved: '✓ Saved!' },
+  books: { title: '📚 My Library', addBook: '+ Add Book', searchPlaceholder: '🔍 Title or author...', empty: 'Library is empty. Add your first book!', emptyFilter: 'Nothing found for these filters.', statusAll: 'All', statusReading: '▶ Reading', statusRead: '✓ Read', filterGenre: 'All genres', markRead: '✓ Read', markReading: '▶ Reading', confirmDelete: 'Remove book from library?', statusRead2: 'Read', statusReading2: 'Reading', statusWishlist: 'Want to read' },
+  wishlist: { title: '🔖 Wishlist', empty: 'Wishlist is empty. Add books with status "Want to read"!', confirmDelete: 'Remove from wishlist?', count: 'books in queue' },
+  genres: { title: '🏷️ Genres', addTitle: '+ Add genre', namePlaceholder: 'e.g. Graphic Novel', descPlaceholder: 'Short genre description', colorLabel: 'Color', bookCount: 'bks.' },
+  stats: { title: '📊 Reading Statistics', read: 'Read', reading: 'Reading now', wishlist: 'Wishlist', pages: 'Pages read', avgRating: 'Average rating', total: 'Total books', topGenres: '🏷️ Genres', topRated: '⭐ Top rated' },
+  profile: { title: '👤 My Profile', settings: 'Settings', read: 'Read', reading: 'Reading', total: 'Total', pages: 'Pages read', logoutBtn: 'Logout' },
+  notFound: { title: 'Page not found', subtitle: 'Looks like this page disappeared like a bookmark from a book. Go back home.' }
+} as const;
+
+export default en;
